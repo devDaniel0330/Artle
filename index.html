@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Artle</title>
+</head>
+<body>
+  <div class="toolbar">
+    <input type="color" id="colorPicker">
+    <label for="brushSize">Brush Size:</label>
+    <input type="range" id="brushSize" min="1" max="50" value="5">
+    <button id="pencil">Pencil</button>
+    <button id="eraser">Eraser</button>
+    <button id="undoBtn">Undo</button>
+    <button id="redoBtn">Redo</button>
+    <button id="clearBtn">Clear</button>
+  </div>
+  <svg id="svgEditor" width="800" height="600" style="border: 1px solid #ccc; background: #fff"></svg>
+  <script type="module" src="script.js"></script>
+</body>
+</html>
